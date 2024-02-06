@@ -27,9 +27,14 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
+        #descripcion_producto = "Coca-cola" #snake case siempre tiene que ser en minuscula y unidos con un guion bajo (se usa en python)
+        # asignacion de una variable, es lo que hicimos en la linea de arriba
+        descripcion_producto = prompt ("Datos", "ingrese descripcion del producto")
         
         
+        alert ("Descripcion", descripcion_producto)
+        
+
     
 if __name__ == "__main__":
     app = App()
