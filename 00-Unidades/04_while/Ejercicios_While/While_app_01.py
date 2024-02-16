@@ -29,7 +29,40 @@ class App(customtkinter.CTk):
         
     
     def btn_mostrar_iteracion_on_click(self):
-        pass
+
+    #    """ condicion = True
+    #
+    #    alert ("utn", "Inicio")
+
+    #    while condicion:
+    #        alert ("utn", "hola")
+    #        condicion = question ("Pregunta", "Desea continuar")
+
+    #    alert ("utn", "fin") """
+
+    #    alert ("utn", "Inicio")
+
+    #    contador_de_nombre = 0 
+    #    while contador_de_nombre < 3 :
+    #        nombre = prompt ("Utn", "Ingrese su nombre")
+    #        alert ("Saludo", f"Hola {nombre}")
+    #        contador_de_nombre += 1
+        
+    #alert ("utn", "fin")
+
+            contador = 0
+    
+            while contador < 10 :
+                contador += 1
+                alert ("utn", contador)
+            #respuesta = question ("utn", "desea continuar?")
+            #if not respuesta :
+            #break
+
+            alert ("utn", "fin")
+
+        
+
     
     
 if __name__ == "__main__":

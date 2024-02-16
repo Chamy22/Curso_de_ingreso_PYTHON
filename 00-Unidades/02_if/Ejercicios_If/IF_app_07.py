@@ -42,8 +42,9 @@ class App(customtkinter.CTk):
 
 
     def btn_mostrar_on_click(self):
-        pass
-        
+        tipo = self.combobox_tipo.get()
+        alert("utn", tipo)
+        #asi empieza el ejercicio para hacer funcionar el combobox
         
     
 if __name__ == "__main__":

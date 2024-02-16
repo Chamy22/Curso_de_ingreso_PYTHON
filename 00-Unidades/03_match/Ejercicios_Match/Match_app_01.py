@@ -43,7 +43,41 @@ class App(customtkinter.CTk):
         
     
     def btn_informar_on_click(self):
-        pass
+        mes =""
+
+        """ if mes == "febrero":
+            alert ("Informar", "Curso de ingreso")
+        elif mes == "enero":
+            alert("Informar", "Vacaciones")
+        elif mes == "diciembre":
+            alert ("Informar", "Felices fiestas")
+        elif mes == "junio" or mes == "julio" or mes == "agosto":
+            alert ("Informar", "Hace frio")
+        else :
+            alert ("Informar", "No existe el mes")"""
+        """ destino = "" 
+        match (mes):
+            case "Febrero":
+                alert("Informar", "Curso de ingreso")
+            case "Enero":
+                alert("Informar", "Vacaciones")
+                match(destino):
+                    case "MDQ":
+                        pass
+                    case "BRC":
+                        pass
+                    case "CBA":
+                        pass
+            case "Diciembre":
+                alert ("Informar", "Felicies fiestas")
+            case "Julio"| "Junio"| "Agosto":
+                alert ("Informar", "Hace frio")
+            case _:
+                alert ("Informar", "No existe el mes") """
+        meses = ""
+        match (meses):
+            case "Enero":
+                alert ("Informar", "que comiences bien el año")
     
     
 if __name__ == "__main__":
